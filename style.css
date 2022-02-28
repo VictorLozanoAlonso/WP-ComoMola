@@ -1,0 +1,183 @@
+/*
+Theme Name:   	Storefront Child Theme
+Theme URI:    	https://github.com/stuartduff/storefront-child-theme
+Author:       	Stuart Duff
+Author URI:     http://stuartduff.com
+Template:     	storefront
+Description:  	This is a blank child theme for WooThemes StoreFront theme
+Version:      	1.0.0
+License:      	GNU General Public License v2 or later
+License URI:  	http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  	storefront
+Tags:         	black, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+Storefront is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+FontAwesome License: SIL Open Font License - http://scripts.sil.org/OFL
+Images License: GNU General Public License v2 or later
+*/
+/*
+ * Add your own custom css below this text.
+ */
+.site-header {
+	margin-bottom: 0px !important;	
+}
+
+.storefront-breadcrumb {
+	padding: 0 0 !important;
+	margin: 0 0 !important;
+}
+.storefront-sorting {
+	padding: 0 0 !important;
+	margin: 0 0 !important;
+}
+.woocommerce-ordering {
+	float: right;
+}
+.woocommerce-result-count {
+	float: right;
+	padding: 0.327em 0.7em;
+}
+.footer-widgets {
+	padding-top: 0em !important;
+}
+.piedepagina a{
+	font-size: 10px;
+	text-decoration: none !important;
+}
+.piedepagina a:hover {
+	text-decoration: underline !important;
+}
+.storefront-handheld-footer-bar {
+	margin-bottom: 50px;
+}
+.required_email_news {
+	background-color: #fff !important;
+}
+.button_news {
+	margin: 10px 50px;
+	background-color: #bcbcbc !important;
+}
+.button_news:hover {
+	background-color: #979797 !important;
+}
+.site-branding {
+	margin-bottom: 0 !important;
+}
+#cookie-notice {
+	margin-bottom: 120px;
+}
+.onsale {
+	background-color: #ff313e;
+	color: #fff;
+	font-size: 16px;
+}
+.price {
+	color: #ff0000 !important;
+	font-weight: bold !important;
+	font-size: 20px;	
+}
+a.button.product_type_variable.add_to_cart_button {
+	background-color: #ffc644;
+}
+
+
+@media (min-width: 1000px) {
+	.logo { margin-top: 15px; display: inline-block; text-align: center }
+	.excerpt-post{ width:100%; }
+	.entradas{ width: 32%;}
+}
+@media (max-width: 999px) {
+	button#responsive-menu-button{
+		bottom: 33px;
+		top: initial !important;
+	}
+	.logo { display: block; margin: 20px 0 }
+		.excerpt-post{ width:100%; }
+		.entradas{ width: 49%;}
+}
+@media (min-width: 768px) {
+	.col-full{
+		width:89%
+	}
+}
+@media (max-width: 768px) {
+	.menu { display: none }
+	.logo { max-width: 65% }
+	.excerpt-post{ width:100%; }
+	.entradas{ width: 100%;}
+}
+.site-main {
+	margin-bottom: 0px;
+}
+#primary{
+	margin-bottom: 0px;
+}
+.hentry {
+	margin-bottom: 0px;
+}
+.menu {
+  
+}
+.menusup {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #46b7b9;
+}
+.menusup li {
+  float: left
+}
+.menusup li a, .dropbtn {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  content: "▼"
+}
+.menusup li a:hover, .dropdown:hover .dropbtn {
+  background-color: red
+}
+li.dropdown {
+  display: inline-block
+}
+.dropdown p{
+	margin:0;	
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  max-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 999
+}
+.dropdown-content a {
+  color: black !important;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+.dropdown:hover .dropdown-content {
+  display: block
+}
+.flecha {
+    font-size: 11px;
+    padding-left: 7px;
+}
+.entradas{
+	text-align: justify;
+	display: inline-flex;
+}
+.img-destacada img{
+	width:100%;
+}
